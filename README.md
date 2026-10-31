@@ -8,7 +8,7 @@ A local, browser-based chat app for running language models through Ollama. It s
 - 8 GB RAM | 16 GB or more is recommended
 - Ryzen 5000 series or Intel 10th gen
 - GPU is optional, CUDA Capable GPU is recommended
-- 10gb of Free Storage || 20GB is recommended
+- 10gb of Free Storage; 20GB is recommended
 
 Actual memory and storage needs depend on the model, quantization, and context size. Check the model's requirements before downloading it.
 
