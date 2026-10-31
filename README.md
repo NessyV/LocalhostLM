@@ -107,7 +107,7 @@ python app.py
 | `OLLAMA_API_KEY` | `ollama` | API key passed to the OpenAI-compatible client |
 | `MAX_CONTEXT_TOKENS` | `32768` | App context-window budget |
 | `MAX_OUTPUT_TOKENS` | `4096` | Output-token reserve |
-| `MAX_CONCURRENT_REQUESTS` | `2` | Concurrent generations allowed by the app |
+| `MAX_CONCURRENT_REQUESTS` | `2` | Concurrent generations allowed by the app. Keep it to 2 to prevent the model from stopping generating the conversation title |
 | `SYSTEM_MESSAGE` | empty | Additional default system message |
 
 The model menu is populated from models available in Ollama; `MODEL_ID` is a backend fallback and does not download a model.
